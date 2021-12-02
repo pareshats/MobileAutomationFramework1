@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Step Description--> <B><u>StepNumber-</u>1<i><Font Color = /'#00008B/'> Executing : CreateMonefyHome </Font></i></B>]]>
+    </line>
+    <line>
+      <![CDATA[Step Description--> Monefy Home Label is-Monefy]]>
+    </line>
+    <line>
+      <![CDATA[Test Scenario has been passed]]>
+    </line>
+    <line>
+      <![CDATA[Step Description--> <B><u>StepNumber-</u>1<i><Font Color = /'#00008B/'> Executing : CreateHomeExpensePage </Font></i></B>]]>
+    </line>
+    <line>
+      <![CDATA[Step Description--> Budget Mode Activated Successfully ]]>
+    </line>
+    <line>
+      <![CDATA[Step Description--> Language Changed Successfully ]]>
+    </line>
+    <line>
+      <![CDATA[Test Scenario has been passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Monefy" duration-ms="66102" started-at="2021-12-02T14:15:49Z" finished-at="2021-12-02T14:16:55Z">
+    <groups>
+    </groups>
+    <test name="Charter_002" duration-ms="24397" started-at="2021-12-02T14:15:49Z" finished-at="2021-12-02T14:16:13Z">
+      <class name="com.monefy.AutomationDriverScript">
+        <test-method status="PASS" signature="scriptExecutioner(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.monefy.AutomationDriverScript@6cd28fa7]" name="scriptExecutioner" duration-ms="21128" started-at="2021-12-02T14:15:49Z" finished-at="2021-12-02T14:16:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Charter_002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CreateMonefyHome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Paresh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[monefy application is up and running ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step Description--> <B><u>StepNumber-</u>1<i><Font Color = /'#00008B/'> Executing : CreateMonefyHome </Font></i></B>]]>
+            </line>
+            <line>
+              <![CDATA[Step Description--> Monefy Home Label is-Monefy]]>
+            </line>
+            <line>
+              <![CDATA[Test Scenario has been passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scriptExecutioner -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.monefy.AutomationDriverScript@6cd28fa7]" name="quitDriver" is-config="true" duration-ms="486" started-at="2021-12-02T14:16:13Z" finished-at="2021-12-02T14:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.monefy.AutomationDriverScript -->
+    </test> <!-- Charter_002 -->
+    <test name="Charter_026" duration-ms="36677" started-at="2021-12-02T14:16:18Z" finished-at="2021-12-02T14:16:55Z">
+      <class name="com.monefy.AutomationDriverScript">
+        <test-method status="PASS" signature="scriptExecutioner(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.monefy.AutomationDriverScript@5d0a1059]" name="scriptExecutioner" duration-ms="34755" started-at="2021-12-02T14:16:18Z" finished-at="2021-12-02T14:16:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Charter_026]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CreateHomeExpensePage2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Paresh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Change Settings ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step Description--> <B><u>StepNumber-</u>1<i><Font Color = /'#00008B/'> Executing : CreateHomeExpensePage </Font></i></B>]]>
+            </line>
+            <line>
+              <![CDATA[Step Description--> Budget Mode Activated Successfully ]]>
+            </line>
+            <line>
+              <![CDATA[Step Description--> Language Changed Successfully ]]>
+            </line>
+            <line>
+              <![CDATA[Test Scenario has been passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scriptExecutioner -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.monefy.AutomationDriverScript@5d0a1059]" name="quitDriver" is-config="true" duration-ms="573" started-at="2021-12-02T14:16:54Z" finished-at="2021-12-02T14:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.monefy.AutomationDriverScript@5d0a1059]" name="afterSuite" is-config="true" duration-ms="3" started-at="2021-12-02T14:17:00Z" finished-at="2021-12-02T14:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.monefy.AutomationDriverScript -->
+    </test> <!-- Charter_026 -->
+  </suite> <!-- Monefy -->
+</testng-results>

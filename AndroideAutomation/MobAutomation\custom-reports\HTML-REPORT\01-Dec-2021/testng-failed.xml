@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SpiritZone]">
+  <test thread-count="5" name="Charter_003(failed)">
+    <classes>
+      <class name="com.spiritzone.AutomationDriverScript">
+        <parameter name="executionAutomationScripterName" value="Paresh"/>
+        <parameter name="executionAutomationScriptReference" value="CreateMonefyHome"/>
+        <parameter name="executionAutomationDescription" value="Validate category to add income"/>
+        <parameter name="executionTestSuite_Reference" value="Charter_003"/>
+        <methods>
+          <include name="quitDriver"/>
+          <include name="afterSuite"/>
+          <include name="scriptExecutioner" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.spiritzone.AutomationDriverScript -->
+    </classes>
+  </test> <!-- Charter_003(failed) -->
+</suite> <!-- Failed suite [SpiritZone] -->

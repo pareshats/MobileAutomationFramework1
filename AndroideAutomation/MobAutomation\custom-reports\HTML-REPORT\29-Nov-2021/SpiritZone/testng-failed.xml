@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SpiritZone]">
+  <test thread-count="5" name="Spirit_Support_001FirstOrderOverallSupport(failed)">
+    <classes>
+      <class name="com.spiritzone.AutomationDriverScript">
+        <parameter name="executionAutomationScripterName" value="Anmol"/>
+        <parameter name="executionAutomationScriptReference" value="CreateSupport"/>
+        <parameter name="executionAutomationDescription" value="To verify if System is Allowing to Click On Support Module and Clicking on First OrderID and EXECUTE Overall Queries"/>
+        <parameter name="executionTestSuite_Reference" value="Spirit_Support_001FirstOrderOverallSupport"/>
+        <methods>
+          <include name="quitDriver"/>
+          <include name="afterSuite"/>
+          <include name="scriptExecutioner" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.spiritzone.AutomationDriverScript -->
+    </classes>
+  </test> <!-- Spirit_Support_001FirstOrderOverallSupport(failed) -->
+</suite> <!-- Failed suite [SpiritZone] -->
